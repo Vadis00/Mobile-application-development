@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+    <StackLayout >
+        <Picker x:Name="picker"
+                HorizontalOptions="Fill"
+                VerticalOptions="Start"
+                BackgroundColor="CadetBlue"
+                SelectedIndexChanged="Picker_SelectedIndexChanged"/>
+
+        <Button x:Name="btnChange"
+                Text="Change"
+                Clicked="BtnChange_Clicked"
+                HorizontalOptions="Fill"
+                VerticalOptions="Start"
+                BorderRadius="35"/>
+
+        <Label x:Name="lblChange"
+               Text=""
+               VerticalOptions="Start"/>
+    </StackLayout>
+
+</ContentPage>
