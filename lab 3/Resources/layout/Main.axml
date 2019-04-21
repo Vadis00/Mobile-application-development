@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TextView
+		android:layout_gravity="center"
+		android:text="0.0"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="72sp"
+		android:layout_height="38.0dp"
+		android:id="@+id/timeCounter"
+		android:layout_marginRight="0.0dp"
+		android:layout_marginLeft="0.0dp"
+		android:layout_weight="1" />
+	<Button
+		android:text="Start"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/startButton"
+		android:layout_weight="1"
+		android:layout_gravity="center"
+		android:layout_marginRight="0.0dp"
+		android:layout_marginLeft="0.0dp" />
+	<Button
+		android:text="Reset"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/resetButton"
+		android:layout_gravity="center"
+		android:layout_weight="1" />
+	<Button
+		android:text="Stop"
+		android:layout_width="110dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/stopButton"
+		android:layout_weight="1"
+		android:layout_gravity="center" />
+  
+</LinearLayout>
